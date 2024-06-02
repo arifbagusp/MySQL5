@@ -147,4 +147,4 @@ JOIN Dosen ON KRSMahasiswa.kd_ds = Dosen.kd_ds;
 Output :
 ![alt text](Screenshot/J5.png)
 
-## TERIMAKASIH# MySQL5
+## TERIMAKASIH
