@@ -37,7 +37,7 @@ INSERT INTO mahasiswa VALUES
 SELECT*FROM Mahasiswa;
 `````
 Output :
-![alt text](Screenshot/H1.png)
+![alt text](SS/1.png)
 
 `````
 insert into dosen values
@@ -51,7 +51,7 @@ SELECT*FROM Dosen;
 
 `````
 Output :
-![alt text](Screenshot/H2.png)
+![alt text](SS/2.png)
 
 `````
 INSERT INTO Matakuliah VALUES
@@ -67,7 +67,7 @@ INSERT INTO Matakuliah VALUES
 SELECT * FROM Matakuliah;
 `````
 Output :
-![alt text](Screenshot/H3.png)
+![alt text](SS/3.png)
 
 `````
 INSERT INTO JadwalMengajar VALUES
@@ -83,7 +83,7 @@ INSERT INTO JadwalMengajar VALUES
 SELECT*FROM JadwalMengajar;
 `````
 Output :
-![alt text](Screenshot/H4.png)
+![alt text](SS/4.png)
 
 `````
 INSERT INTO KRSMahasiswa VALUES
@@ -97,7 +97,7 @@ INSERT INTO KRSMahasiswa VALUES
 SELECT * FROM KRSMahasiswa;
 `````
 Output :
-![alt text](Screenshot/H5.png)
+![alt text](SS/5.png)
 
 # Latihan
 - JOIN table Mahasiswa dan Dosen
@@ -106,7 +106,7 @@ SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
 FROM Mahasiswa INNER JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
 `````
 Output :
-![alt text](Screenshot/J1.png)
+![alt text](SS/6.png)
 
 - LEFT JOIN table Mahasiswa dan Dosen
 `````
@@ -114,7 +114,7 @@ SELECT Mahasiswa.nim, Mahasiswa.nama, Mahasiswa.jk, Dosen.nama AS "Dosen PA"
 FROM Mahasiswa LEFT JOIN Dosen ON Dosen.kd_ds = Mahasiswa.kd_ds;
 `````
 Output:
-![alt text](Screenshot/J2.png)
+![alt text](SS/7.png)
 
 - JOIN table JadwalMengajar, Dosen, dan Matakuliah
 `````
@@ -124,7 +124,7 @@ LEFT JOIN Matakuliah ON JadwalMengajar.kd_mk = Matakuliah.kd_mk
 LEFT JOIN Dosen ON JadwalMengajar.kd_ds = Dosen.kd_ds;
 `````
 Output:
-![alt text](Screenshot/J3.png)
+![alt text](SS/8.png)
 
 - JOIN table JadwalMengajar, Dosen, dan Matakuliah
 `````
@@ -134,7 +134,7 @@ LEFT JOIN Matakuliah ON JadwalMengajar.kd_mk = Matakuliah.kd_mk
 LEFT JOIN Dosen ON JadwalMengajar.kd_ds = Dosen.kd_ds;
 `````
 Output :
-![alt text](Screenshot/J4.png)
+![alt text](SS/9.png)
 
 - JOIN tabel KRSMahasiswa, Mahasiswa, Matakuliah, dan Dosen
 `````
@@ -145,6 +145,6 @@ JOIN Matakuliah ON KRSMahasiswa.kd_mk = Matakuliah.kd_mk
 JOIN Dosen ON KRSMahasiswa.kd_ds = Dosen.kd_ds;
 `````
 Output :
-![alt text](Screenshot/J5.png)
+![alt text](SS/10.png)
 
 ## TERIMAKASIH
